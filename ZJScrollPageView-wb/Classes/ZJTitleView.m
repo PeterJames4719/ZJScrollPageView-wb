@@ -195,11 +195,11 @@
 - (void)showBadge:(BOOL)show number:(NSInteger)num style:(NSInteger)style {
     if (show) {
         if (style) {
-            self.badgeView.height = 16;
+            self.badgeView.zj_height = 16;
             NSString *text = [NSString stringWithFormat:@"%zd", num];
             NSInteger width;
             if (num < 10) {
-                width = self.badgeView.height;
+                width = self.badgeView.zj_height;
             } else if (num >= 10 && num <= 99) {
                 width = 22;
             } else {
@@ -214,14 +214,14 @@
 //            } else {
 //                self.badgeView.width = 16;
 //            }
-            self.badgeView.width = width;
+            self.badgeView.zj_width = width;
             self.badgeView.text = text;
         } else {
-            self.badgeView.width = 8;
-            self.badgeView.height = 8;
+            self.badgeView.zj_width = 8;
+            self.badgeView.zj_height = 8;
             self.badgeView.text = @"";
         }
-        self.badgeView.layer.cornerRadius = self.badgeView.height / 2.0;
+        self.badgeView.layer.cornerRadius = self.badgeView.zj_height / 2.0;
         self.badgeView.hidden = NO;
         self.badgeView.zj_centerY = (self.zj_height - self.label.font.pointSize)/2.0;
         self.badgeView.zj_x = self.zj_width - (self.zj_width - _titleSize.width)/2;
