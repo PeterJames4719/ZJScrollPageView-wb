@@ -1,0 +1,6 @@
+framework module Pods_ZJScrollPageView_wb_Example {
+  umbrella header "Pods-ZJScrollPageView-wb_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

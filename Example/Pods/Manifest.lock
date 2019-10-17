@@ -1,0 +1,16 @@
+PODS:
+  - ZJScrollPageView-wb (0.1.0)
+
+DEPENDENCIES:
+  - ZJScrollPageView-wb (from `../`)
+
+EXTERNAL SOURCES:
+  ZJScrollPageView-wb:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJScrollPageView-wb: e6bef4796c303294b1797c10a3f13b71a8cd6e5c
+
+PODFILE CHECKSUM: 8342d6dd8543c0924819a378b90ebbfcdd37618f
+
+COCOAPODS: 1.7.5

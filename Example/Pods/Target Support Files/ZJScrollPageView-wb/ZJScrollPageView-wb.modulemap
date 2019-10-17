@@ -1,0 +1,6 @@
+framework module ZJScrollPageView_wb {
+  umbrella header "ZJScrollPageView-wb-umbrella.h"
+
+  export *
+  module * { export * }
+}
